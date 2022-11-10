@@ -20,3 +20,4 @@ namespace _2_Encapsulation_3
             }
         }
     }
+}

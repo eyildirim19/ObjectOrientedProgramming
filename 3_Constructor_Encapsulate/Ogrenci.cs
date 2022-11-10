@@ -39,5 +39,16 @@ namespace _3_Constructor_Encapsulate
                 };
             }
         }
+
+        public Ogrenci()
+        {
+            Console.WriteLine("instance alındı");
+        }
+
+        ~Ogrenci() // yıkıcı metot
+        {
+            Console.WriteLine("instance silindi...");
+        }
     }
+
 }
