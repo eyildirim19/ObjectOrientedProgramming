@@ -18,7 +18,8 @@ namespace _3_Constructor_Encapsulate
         public readonly float Vize;
         public float Final { get; }
         // fieldlara class seviyesinde erişilemez..Class seviyesinden tanımlanan üyelere erişelemez. üyelere sadece alt scopelardan erişilebilir....
-        //public float Ortalama = Vize * 04f + Final * 0.6f;
+      //  public float Ortalama = Vize * 04f + Final * 0.6f;
+
         // propertyler'de readonly kullanılmaz. readonly olacak eğer property'Nin set'ini siler get'i bırakırsınız
         public float Ortalama { get; }
         // readonly property
